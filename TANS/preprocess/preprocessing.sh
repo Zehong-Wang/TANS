@@ -6,7 +6,7 @@
 # You can download the preprocessed data from the following link:
 # https://drive.google.com/drive/folders/1iRyGcVZz9xTKErOleT13EtTv3QQC9QN-?usp=sharing
 
-# python preprocessing.py
+# python node_property.py
 
 # Step 2: Generate text descriptions
 
@@ -21,4 +21,4 @@ for data in usa brazil europe; do
     python airport_graphs.py --data_name $data --setting text_free
 done
 
-echo "All cases completed!"
+echo "Generate text descriptions completed!"
