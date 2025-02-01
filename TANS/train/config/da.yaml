@@ -1,0 +1,50 @@
+TANS:
+  usa:
+    brazil:
+      hidden_dim: 64
+      num_layers: 3
+      normalize: none
+      lr: 0.01
+      decay: 0.00005
+      dropout: 0
+      train_num: 10
+      val_num: 20
+    europe:
+      hidden_dim: 64
+      num_layers: 2
+      normalize: batch
+      lr: 0.005
+      decay: 0.0001
+      dropout: 0.5
+  brazil:
+    usa:
+      hidden_dim: 8
+      num_layers: 3
+      normalize: batch
+      lr: 0.01
+      decay: 0
+      dropout: 0.5
+    europe:
+      hidden_dim: 16
+      num_layers: 3
+      normalize: none
+      lr: 0.05
+      decay: 0.0001
+      dropout: 0
+  europe:
+    usa:
+      hidden_dim: 16
+      num_layers: 2
+      normalize: batch
+      lr: 0.005
+      decay: 0.0001
+      dropout: 0.5
+    brazil:
+      hidden_dim: 32
+      num_layers: 2
+      normalize: batch
+      lr: 0.005
+      decay: 0
+      dropout: 0.8
+      train_num: 10
+      val_num: 20

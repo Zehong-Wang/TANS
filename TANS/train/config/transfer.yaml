@@ -1,0 +1,35 @@
+TANS:
+  title_abstract:
+    cora:
+      pubmed:
+        hidden_dim: 64
+        num_layers: 2
+        normalize: none
+        lr: 0.05
+        decay: 0.0001
+        dropout: 0.5
+    pubmed:
+      cora:
+        hidden_dim: 32
+        num_layers: 2
+        normalize: none
+        lr: 0.01
+        decay: 0.0001
+        dropout: 0.1
+  title:
+    cora:
+      pubmed:
+        hidden_dim: 32
+        num_layers: 2
+        normalize: none
+        lr: 0.005
+        decay: 0
+        dropout: 0.5
+    pubmed:
+      cora:
+        hidden_dim: 32
+        num_layers: 2
+        normalize: none
+        lr: 0.005
+        decay: 0
+        dropout: 0.1
