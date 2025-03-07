@@ -36,6 +36,7 @@ You may use conda to install the environment. Please run the following script.
 ```
 conda env create -f environment.yml
 conda activate TANS
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.4.0+cu121.html
 ```
 
 ## Quick Start
